@@ -10,6 +10,15 @@ from dotenv import load_dotenv
 from PIL import Image
 from safetensors.torch import load_file
 from transformers import ViTForImageClassification, ViTImageProcessor
+from pipeline import process_image
+
+import logging
+
+
+logger = logging.getLogger(__name__)
+
+
+logging.basicConfig(level=logging.INFO)
 
 load_dotenv()
 
@@ -130,9 +139,9 @@ async def handle_photo(message: types.Message):
 
 async def main():
     await bot.delete_webhook()
-    print("Bot started")
+    logger.info("Bot started")
     await dp.start_polling(bot)
-    print("Bot finished")
+    logger.info("Bot finished")
 
 
 if __name__ == "__main__":
