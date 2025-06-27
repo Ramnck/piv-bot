@@ -1,11 +1,11 @@
 from PIL import Image
 import torch
 
-class Segmenter:
+class Detector:
     def __init__(self, verbose: bool = True):
         self.expand_ratio = 1.5
         self.model = torch.hub.load(
-            'Ramnck/pivo-segmentation',
+            'Ramnck/pivo-detection',
             'model',
             verbose=verbose,
             pretrained=True,
@@ -54,7 +54,7 @@ class Segmenter:
         return crops
 
     # получает изображение с полкой - отдаёт изображения банок
-    def segment_image(self, image: Image.Image) -> list[Image.Image]:
+    def detect_images(self, image: Image.Image) -> list[Image.Image]:
 
         with torch.no_grad():
             output = self.model(image, verbose=False)

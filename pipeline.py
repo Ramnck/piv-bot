@@ -1,4 +1,4 @@
-from segmenter import Segmenter
+from detector import Detector
 from classifier import Classifier
 from classifier import id_to_label, beer_db
 from referrer import Referrer
@@ -10,7 +10,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-segmenter_model = Segmenter()
+detector_model = Detector()
 classifier_model = Classifier()
 referrer_model = Referrer()
 
@@ -18,7 +18,7 @@ referrer_model = Referrer()
 def process_image(image_path: Path | str, user_prompt: str) -> str:
     shelf_image = Image.open(image_path)
     
-    bottles_images = segmenter_model.segment_image(shelf_image)
+    bottles_images = detector_model.detect_images(shelf_image)
 
     bottles_ids_raw = classifier_model.predict_images(bottles_images)
     
