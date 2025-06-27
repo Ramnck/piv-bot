@@ -1,652 +1,652 @@
 [
-  {
-    "id": 1,
-    "name": "Abbe",
-    "country": "Belgium",
-    "beer_type": "Abbey Ale",
-    "cost": 250,
-    "score": 8.2,
-    "strength": 6.5,
-    "conclusion": "Бельгийское аббатское пиво с фруктовыми нотами и мягким вкусом. Отлично подходит для ценителей традиционных европейских сортов."
-  },
-  {
-    "id": 2,
-    "name": "Afanasii Marochnoe",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 90,
-    "score": 7.0,
-    "strength": 4.5,
-    "conclusion": "Лёгкое и освежающее пиво с мягким вкусом. Популярный выбор для повседневного употребления."
-  },
-  {
-    "id": 3,
-    "name": "Amsterdam",
-    "country": "Netherlands",
-    "beer_type": "Pilsner",
-    "cost": 180,
-    "score": 7.5,
-    "strength": 5.0,
-    "conclusion": "Голландский пилснер с хмельным вкусом и лёгкой горчинкой. Хороший вариант для любителей классического пива."
-  },
-  {
-    "id": 4,
-    "name": "Arsenalnoe",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 70,
-    "score": 6.5,
-    "strength": 4.7,
-    "conclusion": "Недорогое и простое пиво с типичным лагерным вкусом. Подходит для непритязательного отдыха."
-  },
-  {
-    "id": 5,
-    "name": "Baltika 3",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 85,
-    "score": 7.2,
-    "strength": 4.8,
-    "conclusion": "Один из самых популярных сортов в России. Лёгкий, освежающий вкус с мягким послевкусием."
-  },
-  {
-    "id": 6,
-    "name": "Baltika 7",
-    "country": "Russia",
-    "beer_type": "Export Lager",
-    "cost": 95,
-    "score": 7.4,
-    "strength": 5.4,
-    "conclusion": "Более крепкий вариант от Baltika с насыщенным вкусом. Хороший выбор для тех, кто любит выраженный хмельной оттенок."
-  },
-  {
-    "id": 7,
-    "name": "Baltika 8",
-    "country": "Russia",
-    "beer_type": "Wheat Beer",
-    "cost": 110,
-    "score": 7.8,
-    "strength": 5.0,
-    "conclusion": "Пшеничное пиво с фруктовыми нотами и мягкой текстурой. Освежающий вариант для летнего времени."
-  },
-  {
-    "id": 8,
-    "name": "Baltika 9",
-    "country": "Russia",
-    "beer_type": "Strong Lager",
-    "cost": 120,
-    "score": 6.8,
-    "strength": 8.0,
-    "conclusion": "Крепкое пиво с выраженным алкогольным вкусом. Подходит для тех, кто предпочитает мощные сорта."
-  },
-  {
-    "id": 9,
-    "name": "Baltika Stout",
-    "country": "Russia",
-    "beer_type": "Stout",
-    "cost": 150,
-    "score": 8.0,
-    "strength": 6.0,
-    "conclusion": "Тёмный стаут с кофейными и шоколадными нотами. Интересный выбор для любителей тёмного пива."
-  },
-  {
-    "id": 10,
-    "name": "Bavariya",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 80,
-    "score": 6.9,
-    "strength": 4.9,
-    "conclusion": "Доступное пиво с классическим лагерным вкусом. Хороший вариант для вечера с друзьями."
-  },
-  {
-    "id": 11,
-    "name": "Bergauer",
-    "country": "Germany",
-    "beer_type": "Hefeweizen",
-    "cost": 220,
-    "score": 8.3,
-    "strength": 5.2,
-    "conclusion": "Немецкое пшеничное пиво с банановыми и пряными оттенками. Отличный выбор для ценителей вайценов."
-  },
-  {
-    "id": 12,
-    "name": "Bochkarev",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 90,
-    "score": 7.1,
-    "strength": 4.6,
-    "conclusion": "Недорогое и качественное пиво с чистым вкусом. Один из лучших бюджетных вариантов на рынке."
-  },
-  {
-    "id": 13,
-    "name": "Bon Season",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 75,
-    "score": 6.7,
-    "strength": 4.5,
-    "conclusion": "Простое пиво без изысков, но с приятным вкусом. Подходит для неприхотливых потребителей."
-  },
-  {
-    "id": 14,
-    "name": "Bud",
-    "country": "USA",
-    "beer_type": "Lager",
-    "cost": 140,
-    "score": 7.0,
-    "strength": 4.5,
-    "conclusion": "Американский лагер с лёгким и нейтральным вкусом. Один из самых известных брендов в мире."
-  },
-  {
-    "id": 15,
-    "name": "Chesters",
-    "country": "Russia",
-    "beer_type": "Porter",
-    "cost": 130,
-    "score": 7.6,
-    "strength": 6.5,
-    "conclusion": "Тёмный портер с карамельными и кофейными нотами. Хороший выбор для холодного времени года."
-  },
-  {
-    "id": 16,
-    "name": "Corona Extra",
-    "country": "Mexico",
-    "beer_type": "Pale Lager",
-    "cost": 200,
-    "score": 8.0,
-    "strength": 4.6,
-    "conclusion": "Лёгкое мексиканское пиво, часто подаётся с лаймом. Идеально для пляжного отдыха."
-  },
-  {
-    "id": 17,
-    "name": "Edelveis",
-    "country": "Austria",
-    "beer_type": "Wheat Beer",
-    "cost": 190,
-    "score": 8.1,
-    "strength": 5.0,
-    "conclusion": "Австрийское пшеничное пиво с цитрусовыми нотками. Освежающий и приятный вкус."
-  },
-  {
-    "id": 18,
-    "name": "Efes",
-    "country": "Turkey",
-    "beer_type": "Pilsner",
-    "cost": 160,
-    "score": 7.3,
-    "strength": 5.0,
-    "conclusion": "Турецкий пилснер с мягким вкусом и лёгкой горчинкой. Популярен в Восточной Европе."
-  },
-  {
-    "id": 19,
-    "name": "El Capulco",
-    "country": "Mexico",
-    "beer_type": "Lager",
-    "cost": 170,
-    "score": 7.2,
-    "strength": 4.8,
-    "conclusion": "Мексиканское пиво с лёгким и освежающим вкусом. Хорошо сочетается с острой едой."
-  },
-  {
-    "id": 20,
-    "name": "Elf",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 80,
-    "score": 6.5,
-    "strength": 4.5,
-    "conclusion": "Простое и недорогое пиво без ярких особенностей. Подходит для повседневного употребления."
-  },
-  {
-    "id": 21,
-    "name": "Essa",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 100,
-    "score": 7.3,
-    "strength": 4.7,
-    "conclusion": "Российское пиво с чистым лагерным вкусом. Хороший баланс между ценой и качеством."
-  },
-  {
-    "id": 22,
-    "name": "Franziskaner",
-    "country": "Germany",
-    "beer_type": "Hefeweizen",
-    "cost": 280,
-    "score": 8.7,
-    "strength": 5.0,
-    "conclusion": "Классическое немецкое пшеничное пиво с банановыми и ванильными нотами. Один из лучших вайценов в мире."
-  },
-  {
-    "id": 23,
-    "name": "Gesser",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 110,
-    "score": 7.5,
-    "strength": 4.9,
-    "conclusion": "Качественное российское пиво с мягким вкусом. Часто выбирают любители крафтовых лагеров."
-  },
-  {
-    "id": 24,
-    "name": "Gold Bier",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 85,
-    "score": 6.9,
-    "strength": 4.5,
-    "conclusion": "Недорогое пиво с лёгким вкусом. Подходит для непритязательного отдыха."
-  },
-  {
-    "id": 25,
-    "name": "Green Beat",
-    "country": "Russia",
-    "beer_type": "IPA",
-    "cost": 180,
-    "score": 7.8,
-    "strength": 5.5,
-    "conclusion": "Российское IPA с выраженным хмелевым вкусом и цитрусовыми нотами. Интересный вариант для любителей крафта."
-  },
-  {
-    "id": 26,
-    "name": "Hoegaarden",
-    "country": "Belgium",
-    "beer_type": "Witbier",
-    "cost": 250,
-    "score": 8.5,
-    "strength": 4.9,
-    "conclusion": "Знаменитое бельгийское белое пиво с пряными и цитрусовыми оттенками. Освежающий вкус."
-  },
-  {
-    "id": 27,
-    "name": "Hoegaarden Cherry",
-    "country": "Belgium",
-    "beer_type": "Fruit Beer",
-    "cost": 270,
-    "score": 7.9,
-    "strength": 3.5,
-    "conclusion": "Фруктовый вариант Hoegaarden с вишнёвым вкусом. Лёгкий и сладковатый, подходит для десертов."
-  },
-  {
-    "id": 28,
-    "name": "Hoegaarden Grapefruit",
-    "country": "Belgium",
-    "beer_type": "Fruit Beer",
-    "cost": 270,
-    "score": 8.0,
-    "strength": 3.0,
-    "conclusion": "Освежающее пиво с грейпфрутовым вкусом. Идеально для летнего времени."
-  },
-  {
-    "id": 29,
-    "name": "Hollandia",
-    "country": "Netherlands",
-    "beer_type": "Pilsner",
-    "cost": 150,
-    "score": 7.4,
-    "strength": 5.0,
-    "conclusion": "Голландский пилснер с мягким вкусом и лёгкой горчинкой. Хороший выбор для вечера."
-  },
-  {
-    "id": 30,
-    "name": "Khamovniki Bavarskoe",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 120,
-    "score": 7.6,
-    "strength": 4.8,
-    "conclusion": "Пиво в баварском стиле с чистым вкусом. Один из лучших вариантов в линейке Khamovniki."
-  },
-  {
-    "id": 31,
-    "name": "Khamovniki Pilsner",
-    "country": "Russia",
-    "beer_type": "Pilsner",
-    "cost": 120,
-    "score": 7.5,
-    "strength": 4.7,
-    "conclusion": "Чешский стиль от российского производителя. Лёгкая горчинка и хмельной аромат."
-  },
-  {
-    "id": 32,
-    "name": "Khamovniki Venskoe",
-    "country": "Russia",
-    "beer_type": "Vienna Lager",
-    "cost": 120,
-    "score": 7.7,
-    "strength": 5.2,
-    "conclusion": "Венский лагер с карамельными нотами. Приятный баланс сладости и горечи."
-  },
-  {
-    "id": 33,
-    "name": "Kozel",
-    "country": "Czech Republic",
-    "beer_type": "Lager",
-    "cost": 160,
-    "score": 8.1,
-    "strength": 4.0,
-    "conclusion": "Классический чешский лагер с мягким вкусом. Один из самых популярных сортов в Европе."
-  },
-  {
-    "id": 34,
-    "name": "Kozel Dark",
-    "country": "Czech Republic",
-    "beer_type": "Dark Lager",
-    "cost": 170,
-    "score": 8.3,
-    "strength": 3.8,
-    "conclusion": "Тёмный лагер с кофейными и карамельными нотами. Мягкий и приятный вкус."
-  },
-  {
-    "id": 35,
-    "name": "Krone Blanche",
-    "country": "Belgium",
-    "beer_type": "Witbier",
-    "cost": 240,
-    "score": 8.2,
-    "strength": 5.0,
-    "conclusion": "Бельгийское белое пиво с цитрусовыми и пряными оттенками. Освежающий вариант."
-  },
-  {
-    "id": 36,
-    "name": "Kruschovice",
-    "country": "Czech Republic",
-    "beer_type": "Lager",
-    "cost": 180,
-    "score": 7.9,
-    "strength": 4.5,
-    "conclusion": "Чешское пиво с чистым вкусом и лёгкой горчинкой. Хорошо сочетается с мясными блюдами."
-  },
-  {
-    "id": 37,
-    "name": "Kruschovice Blue",
-    "country": "Czech Republic",
-    "beer_type": "Pilsner",
-    "cost": 190,
-    "score": 8.0,
-    "strength": 4.7,
-    "conclusion": "Лёгкий пилснер с мягким вкусом. Популярен в Восточной Европе."
-  },
-  {
-    "id": 38,
-    "name": "Kruschovice Dark",
-    "country": "Czech Republic",
-    "beer_type": "Dark Lager",
-    "cost": 200,
-    "score": 8.4,
-    "strength": 4.8,
-    "conclusion": "Тёмный лагер с шоколадными и кофейными нотами. Отличный выбор для холодных вечеров."
-  },
-  {
-    "id": 39,
-    "name": "Lowenbrau",
-    "country": "Germany",
-    "beer_type": "Lager",
-    "cost": 220,
-    "score": 8.0,
-    "strength": 5.2,
-    "conclusion": "Немецкое пиво с богатым вкусом и хмельным ароматом. Классика баварского стиля."
-  },
-  {
-    "id": 40,
-    "name": "Maison Arne",
-    "country": "France",
-    "beer_type": "Blonde Ale",
-    "cost": 300,
-    "score": 8.5,
-    "strength": 6.0,
-    "conclusion": "Французский крафтовый эль с фруктовыми и пряными нотами. Утончённый вкус для ценителей."
-  },
-  {
-    "id": 41,
-    "name": "Motor",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 90,
-    "score": 6.8,
-    "strength": 4.7,
-    "conclusion": "Простое российское пиво с классическим лагерным вкусом. Подходит для повседневного употребления."
-  },
-  {
-    "id": 42,
-    "name": "Nepravilniy Med",
-    "country": "Russia",
-    "beer_type": "Honey Ale",
-    "cost": 180,
-    "score": 7.9,
-    "strength": 5.5,
-    "conclusion": "Пиво с медовыми нотами и лёгкой сладостью. Интересный вариант для любителей нестандартных вкусов."
-  },
-  {
-    "id": 43,
-    "name": "Oettinger",
-    "country": "Germany",
-    "beer_type": "Pilsner",
-    "cost": 120,
-    "score": 7.2,
-    "strength": 4.9,
-    "conclusion": "Немецкий пилснер с чистым вкусом и лёгкой горчинкой. Хорошее сочетание цены и качества."
-  },
-  {
-    "id": 44,
-    "name": "Ohota",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 80,
-    "score": 6.5,
-    "strength": 4.5,
-    "conclusion": "Недорогое пиво с простым вкусом. Подходит для непритязательного отдыха."
-  },
-  {
-    "id": 45,
-    "name": "Okskoe",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 85,
-    "score": 6.9,
-    "strength": 4.6,
-    "conclusion": "Лёгкое и освежающее пиво с мягким вкусом. Один из популярных бюджетных вариантов."
-  },
-  {
-    "id": 46,
-    "name": "Redds",
-    "country": "USA",
-    "beer_type": "Malt Beverage",
-    "cost": 150,
-    "score": 6.7,
-    "strength": 4.5,
-    "conclusion": "Сладковатый алкогольный напиток на основе пива. Популярен среди любителей лёгких вариантов."
-  },
-  {
-    "id": 47,
-    "name": "Remeslennoe",
-    "country": "Russia",
-    "beer_type": "Craft Lager",
-    "cost": 160,
-    "score": 7.8,
-    "strength": 5.0,
-    "conclusion": "Качественное крафтовое пиво с насыщенным вкусом. Хороший выбор для ценителей."
-  },
-  {
-    "id": 48,
-    "name": "Spaten",
-    "country": "Germany",
-    "beer_type": "Munich Lager",
-    "cost": 220,
-    "score": 8.3,
-    "strength": 5.2,
-    "conclusion": "Классическое мюнхенское пиво с богатым вкусом. Отличный пример немецкого качества."
-  },
-  {
-    "id": 49,
-    "name": "Starii Melnik",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 95,
-    "score": 7.1,
-    "strength": 4.8,
-    "conclusion": "Популярное российское пиво с мягким вкусом. Хороший вариант для вечера с друзьями."
-  },
-  {
-    "id": 50,
-    "name": "Starii Melnik Dark",
-    "country": "Russia",
-    "beer_type": "Dark Lager",
-    "cost": 100,
-    "score": 7.3,
-    "strength": 4.9,
-    "conclusion": "Тёмный вариант Старого Мельника с карамельными нотами. Интересный вкус для любителей тёмного пива."
-  },
-  {
-    "id": 51,
-    "name": "Stella Artois",
-    "country": "Belgium",
-    "beer_type": "Pilsner",
-    "cost": 200,
-    "score": 8.0,
-    "strength": 5.0,
-    "conclusion": "Знаменитое бельгийское пиво с лёгким вкусом и хмельным ароматом. Классика европейского пивоварения."
-  },
-  {
-    "id": 52,
-    "name": "Svetlyachok",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 70,
-    "score": 6.3,
-    "strength": 4.3,
-    "conclusion": "Одно из самых дешёвых пив в России. Простой вкус без изысков."
-  },
-  {
-    "id": 53,
-    "name": "Yarpivo",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 75,
-    "score": 6.5,
-    "strength": 4.5,
-    "conclusion": "Недорогое пиво с типичным лагерным вкусом. Подходит для неприхотливых потребителей."
-  },
-  {
-    "id": 54,
-    "name": "Zatecky Gus",
-    "country": "Czech Republic",
-    "beer_type": "Pilsner",
-    "cost": 170,
-    "score": 8.2,
-    "strength": 5.0,
-    "conclusion": "Чешский пилснер с идеальным балансом горечи и сладости. Отличный пример классического пива."
-  },
-  {
-    "id": 55,
-    "name": "Zatecky Gus Dark",
-    "country": "Czech Republic",
-    "beer_type": "Dark Lager",
-    "cost": 180,
-    "score": 8.4,
-    "strength": 4.8,
-    "conclusion": "Тёмный вариант Zatecky Gus с шоколадными и кофейными нотами. Богатый и насыщенный вкус."
-  },
-  {
-    "id": 56,
-    "name": "Zatecky Gus Nefiltrovannoe",
-    "country": "Czech Republic",
-    "beer_type": "Unfiltered Pilsner",
-    "cost": 190,
-    "score": 8.5,
-    "strength": 5.2,
-    "conclusion": "Нефильтрованное чешское пиво с насыщенным вкусом и ароматом. Для истинных ценителей."
-  },
-  {
-    "id": 57,
-    "name": "Zhigulevskoe Bochkovoe",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 90,
-    "score": 7.0,
-    "strength": 4.7,
-    "conclusion": "Классическое Жигулёвское с узнаваемым вкусом. Ностальгический вариант для многих россиян."
-  },
-  {
-    "id": 58,
-    "name": "Zhigulevskoe Special",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 100,
-    "score": 7.2,
-    "strength": 5.0,
-    "conclusion": "Улучшенная версия Жигулёвского с более насыщенным вкусом. Хороший выбор для любителей традиционного пива."
-  },
-  {
-    "id": 59,
-    "name": "Zhiguli 1968",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 110,
-    "score": 7.4,
-    "strength": 4.9,
-    "conclusion": "Ретро-версия Жигулёвского по рецептуре 1968 года. Интересный вариант для ценителей истории пивоварения."
-  },
-  {
-    "id": 60,
-    "name": "Zhiguli Barnoe",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 120,
-    "score": 7.6,
-    "strength": 5.2,
-    "conclusion": "Пиво с ярко выраженным хмельным вкусом. Один из лучших вариантов в линейке Жигули."
-  },
-  {
-    "id": 61,
-    "name": "Zhiguli Barnoe Dark",
-    "country": "Russia",
-    "beer_type": "Dark Lager",
-    "cost": 130,
-    "score": 7.8,
-    "strength": 5.5,
-    "conclusion": "Тёмное пиво с карамельными и кофейными нотами. Насыщенный вкус для любителей тёмных сортов."
-  },
-  {
-    "id": 62,
-    "name": "Zhiguli Export",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 140,
-    "score": 7.5,
-    "strength": 5.3,
-    "conclusion": "Экспортная версия Жигулёвского с более крепким вкусом. Популярен за пределами России."
-  },
-  {
-    "id": 63,
-    "name": "Zhiguli Pshenichnoe",
-    "country": "Russia",
-    "beer_type": "Wheat Beer",
-    "cost": 150,
-    "score": 7.9,
-    "strength": 5.0,
-    "conclusion": "Пшеничное пиво с лёгкими фруктовыми нотами. Освежающий вариант для лета."
-  },
-  {
-    "id": 64,
-    "name": "Zolotaya Bochka",
-    "country": "Russia",
-    "beer_type": "Lager",
-    "cost": 95,
-    "score": 7.3,
-    "strength": 4.8,
-    "conclusion": "Качественное российское пиво с чистым вкусом. Хорошее сочетание цены и качества."
-  },
-  {
-    "id": 65,
-    "name": "Zolotaya Bochka Extra",
-    "country": "Russia",
-    "beer_type": "Strong Lager",
-    "cost": 110,
-    "score": 7.5,
-    "strength": 6.0,
-    "conclusion": "Крепкий вариант Золотой Бочки с более выраженным вкусом. Подходит для любителей крепкого пива."
-  }
+    {
+        "id": "abbe",
+        "name": "Abbe",
+        "country": "Belgium",
+        "beer_type": "Abbey Ale",
+        "cost": 250,
+        "score": 8.2,
+        "strength": 6.5,
+        "conclusion": "Бельгийское аббатское пиво с фруктовыми нотами и мягким вкусом. Отлично подходит для ценителей традиционных европейских сортов."
+    },
+    {
+        "id": "afanasii_marochnoe",
+        "name": "Afanasii Marochnoe",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 90,
+        "score": 7.0,
+        "strength": 4.5,
+        "conclusion": "Лёгкое и освежающее пиво с мягким вкусом. Популярный выбор для повседневного употребления."
+    },
+    {
+        "id": "amsterdam",
+        "name": "Amsterdam",
+        "country": "Netherlands",
+        "beer_type": "Pilsner",
+        "cost": 180,
+        "score": 7.5,
+        "strength": 5.0,
+        "conclusion": "Голландский пилснер с хмельным вкусом и лёгкой горчинкой. Хороший вариант для любителей классического пива."
+    },
+    {
+        "id": "arsenalnoe",
+        "name": "Arsenalnoe",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 70,
+        "score": 6.5,
+        "strength": 4.7,
+        "conclusion": "Недорогое и простое пиво с типичным лагерным вкусом. Подходит для непритязательного отдыха."
+    },
+    {
+        "id": "baltika_3",
+        "name": "Baltika 3",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 85,
+        "score": 7.2,
+        "strength": 4.8,
+        "conclusion": "Один из самых популярных сортов в России. Лёгкий, освежающий вкус с мягким послевкусием."
+    },
+    {
+        "id": "baltika_7",
+        "name": "Baltika 7",
+        "country": "Russia",
+        "beer_type": "Export Lager",
+        "cost": 95,
+        "score": 7.4,
+        "strength": 5.4,
+        "conclusion": "Более крепкий вариант от Baltika с насыщенным вкусом. Хороший выбор для тех, кто любит выраженный хмельной оттенок."
+    },
+    {
+        "id": "baltika_8",
+        "name": "Baltika 8",
+        "country": "Russia",
+        "beer_type": "Wheat Beer",
+        "cost": 110,
+        "score": 7.8,
+        "strength": 5.0,
+        "conclusion": "Пшеничное пиво с фруктовыми нотами и мягкой текстурой. Освежающий вариант для летнего времени."
+    },
+    {
+        "id": "baltika_9",
+        "name": "Baltika 9",
+        "country": "Russia",
+        "beer_type": "Strong Lager",
+        "cost": 120,
+        "score": 6.8,
+        "strength": 8.0,
+        "conclusion": "Крепкое пиво с выраженным алкогольным вкусом. Подходит для тех, кто предпочитает мощные сорта."
+    },
+    {
+        "id": "baltika_stout",
+        "name": "Baltika Stout",
+        "country": "Russia",
+        "beer_type": "Stout",
+        "cost": 150,
+        "score": 8.0,
+        "strength": 6.0,
+        "conclusion": "Тёмный стаут с кофейными и шоколадными нотами. Интересный выбор для любителей тёмного пива."
+    },
+    {
+        "id": "bavariya",
+        "name": "Bavariya",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 80,
+        "score": 6.9,
+        "strength": 4.9,
+        "conclusion": "Доступное пиво с классическим лагерным вкусом. Хороший вариант для вечера с друзьями."
+    },
+    {
+        "id": "bergauer",
+        "name": "Bergauer",
+        "country": "Germany",
+        "beer_type": "Hefeweizen",
+        "cost": 220,
+        "score": 8.3,
+        "strength": 5.2,
+        "conclusion": "Немецкое пшеничное пиво с банановыми и пряными оттенками. Отличный выбор для ценителей вайценов."
+    },
+    {
+        "id": "bochkarev",
+        "name": "Bochkarev",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 90,
+        "score": 7.1,
+        "strength": 4.6,
+        "conclusion": "Недорогое и качественное пиво с чистым вкусом. Один из лучших бюджетных вариантов на рынке."
+    },
+    {
+        "id": "bon_season",
+        "name": "Bon Season",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 75,
+        "score": 6.7,
+        "strength": 4.5,
+        "conclusion": "Простое пиво без изысков, но с приятным вкусом. Подходит для неприхотливых потребителей."
+    },
+    {
+        "id": "bud",
+        "name": "Bud",
+        "country": "USA",
+        "beer_type": "Lager",
+        "cost": 140,
+        "score": 7.0,
+        "strength": 4.5,
+        "conclusion": "Американский лагер с лёгким и нейтральным вкусом. Один из самых известных брендов в мире."
+    },
+    {
+        "id": "chesters",
+        "name": "Chesters",
+        "country": "Russia",
+        "beer_type": "Porter",
+        "cost": 130,
+        "score": 7.6,
+        "strength": 6.5,
+        "conclusion": "Тёмный портер с карамельными и кофейными нотами. Хороший выбор для холодного времени года."
+    },
+    {
+        "id": "corona_extra",
+        "name": "Corona Extra",
+        "country": "Mexico",
+        "beer_type": "Pale Lager",
+        "cost": 200,
+        "score": 8.0,
+        "strength": 4.6,
+        "conclusion": "Лёгкое мексиканское пиво, часто подаётся с лаймом. Идеально для пляжного отдыха."
+    },
+    {
+        "id": "edelveis",
+        "name": "Edelveis",
+        "country": "Austria",
+        "beer_type": "Wheat Beer",
+        "cost": 190,
+        "score": 8.1,
+        "strength": 5.0,
+        "conclusion": "Австрийское пшеничное пиво с цитрусовыми нотками. Освежающий и приятный вкус."
+    },
+    {
+        "id": "efes",
+        "name": "Efes",
+        "country": "Turkey",
+        "beer_type": "Pilsner",
+        "cost": 160,
+        "score": 7.3,
+        "strength": 5.0,
+        "conclusion": "Турецкий пилснер с мягким вкусом и лёгкой горчинкой. Популярен в Восточной Европе."
+    },
+    {
+        "id": "elf",
+        "name": "El Capulco",
+        "country": "Mexico",
+        "beer_type": "Lager",
+        "cost": 170,
+        "score": 7.2,
+        "strength": 4.8,
+        "conclusion": "Мексиканское пиво с лёгким и освежающим вкусом. Хорошо сочетается с острой едой."
+    },
+    {
+        "id": "el_capulco",
+        "name": "Elf",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 80,
+        "score": 6.5,
+        "strength": 4.5,
+        "conclusion": "Простое и недорогое пиво без ярких особенностей. Подходит для повседневного употребления."
+    },
+    {
+        "id": "essa",
+        "name": "Essa",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 100,
+        "score": 7.3,
+        "strength": 4.7,
+        "conclusion": "Российское пиво с чистым лагерным вкусом. Хороший баланс между ценой и качеством."
+    },
+    {
+        "id": "franziskaner",
+        "name": "Franziskaner",
+        "country": "Germany",
+        "beer_type": "Hefeweizen",
+        "cost": 280,
+        "score": 8.7,
+        "strength": 5.0,
+        "conclusion": "Классическое немецкое пшеничное пиво с банановыми и ванильными нотами. Один из лучших вайценов в мире."
+    },
+    {
+        "id": "gesser",
+        "name": "Gesser",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 110,
+        "score": 7.5,
+        "strength": 4.9,
+        "conclusion": "Качественное российское пиво с мягким вкусом. Часто выбирают любители крафтовых лагеров."
+    },
+    {
+        "id": "gold_bier",
+        "name": "Gold Bier",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 85,
+        "score": 6.9,
+        "strength": 4.5,
+        "conclusion": "Недорогое пиво с лёгким вкусом. Подходит для непритязательного отдыха."
+    },
+    {
+        "id": "green_beat",
+        "name": "Green Beat",
+        "country": "Russia",
+        "beer_type": "IPA",
+        "cost": 180,
+        "score": 7.8,
+        "strength": 5.5,
+        "conclusion": "Российское IPA с выраженным хмелевым вкусом и цитрусовыми нотами. Интересный вариант для любителей крафта."
+    },
+    {
+        "id": "hoegaarden",
+        "name": "Hoegaarden",
+        "country": "Belgium",
+        "beer_type": "Witbier",
+        "cost": 250,
+        "score": 8.5,
+        "strength": 4.9,
+        "conclusion": "Знаменитое бельгийское белое пиво с пряными и цитрусовыми оттенками. Освежающий вкус."
+    },
+    {
+        "id": "hoegaarden_cherry",
+        "name": "Hoegaarden Cherry",
+        "country": "Belgium",
+        "beer_type": "Fruit Beer",
+        "cost": 270,
+        "score": 7.9,
+        "strength": 3.5,
+        "conclusion": "Фруктовый вариант Hoegaarden с вишнёвым вкусом. Лёгкий и сладковатый, подходит для десертов."
+    },
+    {
+        "id": "hoegaarden_grapefruit",
+        "name": "Hoegaarden Grapefruit",
+        "country": "Belgium",
+        "beer_type": "Fruit Beer",
+        "cost": 270,
+        "score": 8.0,
+        "strength": 3.0,
+        "conclusion": "Освежающее пиво с грейпфрутовым вкусом. Идеально для летнего времени."
+    },
+    {
+        "id": "hollandia",
+        "name": "Hollandia",
+        "country": "Netherlands",
+        "beer_type": "Pilsner",
+        "cost": 150,
+        "score": 7.4,
+        "strength": 5.0,
+        "conclusion": "Голландский пилснер с мягким вкусом и лёгкой горчинкой. Хороший выбор для вечера."
+    },
+    {
+        "id": "khamovniki_bavarskoe",
+        "name": "Khamovniki Bavarskoe",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 120,
+        "score": 7.6,
+        "strength": 4.8,
+        "conclusion": "Пиво в баварском стиле с чистым вкусом. Один из лучших вариантов в линейке Khamovniki."
+    },
+    {
+        "id": "khamovniki_pilsner",
+        "name": "Khamovniki Pilsner",
+        "country": "Russia",
+        "beer_type": "Pilsner",
+        "cost": 120,
+        "score": 7.5,
+        "strength": 4.7,
+        "conclusion": "Чешский стиль от российского производителя. Лёгкая горчинка и хмельной аромат."
+    },
+    {
+        "id": "khamovniki_venskoe",
+        "name": "Khamovniki Venskoe",
+        "country": "Russia",
+        "beer_type": "Vienna Lager",
+        "cost": 120,
+        "score": 7.7,
+        "strength": 5.2,
+        "conclusion": "Венский лагер с карамельными нотами. Приятный баланс сладости и горечи."
+    },
+    {
+        "id": "kozel",
+        "name": "Kozel",
+        "country": "Czech Republic",
+        "beer_type": "Lager",
+        "cost": 160,
+        "score": 8.1,
+        "strength": 4.0,
+        "conclusion": "Классический чешский лагер с мягким вкусом. Один из самых популярных сортов в Европе."
+    },
+    {
+        "id": "kozel_dark",
+        "name": "Kozel Dark",
+        "country": "Czech Republic",
+        "beer_type": "Dark Lager",
+        "cost": 170,
+        "score": 8.3,
+        "strength": 3.8,
+        "conclusion": "Тёмный лагер с кофейными и карамельными нотами. Мягкий и приятный вкус."
+    },
+    {
+        "id": "krone_blanche",
+        "name": "Krone Blanche",
+        "country": "Belgium",
+        "beer_type": "Witbier",
+        "cost": 240,
+        "score": 8.2,
+        "strength": 5.0,
+        "conclusion": "Бельгийское белое пиво с цитрусовыми и пряными оттенками. Освежающий вариант."
+    },
+    {
+        "id": "kruschovice",
+        "name": "Kruschovice",
+        "country": "Czech Republic",
+        "beer_type": "Lager",
+        "cost": 180,
+        "score": 7.9,
+        "strength": 4.5,
+        "conclusion": "Чешское пиво с чистым вкусом и лёгкой горчинкой. Хорошо сочетается с мясными блюдами."
+    },
+    {
+        "id": "kruschovice_blue",
+        "name": "Kruschovice Blue",
+        "country": "Czech Republic",
+        "beer_type": "Pilsner",
+        "cost": 190,
+        "score": 8.0,
+        "strength": 4.7,
+        "conclusion": "Лёгкий пилснер с мягким вкусом. Популярен в Восточной Европе."
+    },
+    {
+        "id": "kruschovice_dark",
+        "name": "Kruschovice Dark",
+        "country": "Czech Republic",
+        "beer_type": "Dark Lager",
+        "cost": 200,
+        "score": 8.4,
+        "strength": 4.8,
+        "conclusion": "Тёмный лагер с шоколадными и кофейными нотами. Отличный выбор для холодных вечеров."
+    },
+    {
+        "id": "lowenbrau",
+        "name": "Lowenbrau",
+        "country": "Germany",
+        "beer_type": "Lager",
+        "cost": 220,
+        "score": 8.0,
+        "strength": 5.2,
+        "conclusion": "Немецкое пиво с богатым вкусом и хмельным ароматом. Классика баварского стиля."
+    },
+    {
+        "id": "maison_arne",
+        "name": "Maison Arne",
+        "country": "France",
+        "beer_type": "Blonde Ale",
+        "cost": 300,
+        "score": 8.5,
+        "strength": 6.0,
+        "conclusion": "Французский крафтовый эль с фруктовыми и пряными нотами. Утончённый вкус для ценителей."
+    },
+    {
+        "id": "motor",
+        "name": "Motor",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 90,
+        "score": 6.8,
+        "strength": 4.7,
+        "conclusion": "Простое российское пиво с классическим лагерным вкусом. Подходит для повседневного употребления."
+    },
+    {
+        "id": "nepravilniy_med",
+        "name": "Nepravilniy Med",
+        "country": "Russia",
+        "beer_type": "Honey Ale",
+        "cost": 180,
+        "score": 7.9,
+        "strength": 5.5,
+        "conclusion": "Пиво с медовыми нотами и лёгкой сладостью. Интересный вариант для любителей нестандартных вкусов."
+    },
+    {
+        "id": "oettinger",
+        "name": "Oettinger",
+        "country": "Germany",
+        "beer_type": "Pilsner",
+        "cost": 120,
+        "score": 7.2,
+        "strength": 4.9,
+        "conclusion": "Немецкий пилснер с чистым вкусом и лёгкой горчинкой. Хорошее сочетание цены и качества."
+    },
+    {
+        "id": "ohota",
+        "name": "Ohota",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 80,
+        "score": 6.5,
+        "strength": 4.5,
+        "conclusion": "Недорогое пиво с простым вкусом. Подходит для непритязательного отдыха."
+    },
+    {
+        "id": "okskoe",
+        "name": "Okskoe",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 85,
+        "score": 6.9,
+        "strength": 4.6,
+        "conclusion": "Лёгкое и освежающее пиво с мягким вкусом. Один из популярных бюджетных вариантов."
+    },
+    {
+        "id": "redds",
+        "name": "Redds",
+        "country": "USA",
+        "beer_type": "Malt Beverage",
+        "cost": 150,
+        "score": 6.7,
+        "strength": 4.5,
+        "conclusion": "Сладковатый алкогольный напиток на основе пива. Популярен среди любителей лёгких вариантов."
+    },
+    {
+        "id": "remeslennoe",
+        "name": "Remeslennoe",
+        "country": "Russia",
+        "beer_type": "Craft Lager",
+        "cost": 160,
+        "score": 7.8,
+        "strength": 5.0,
+        "conclusion": "Качественное крафтовое пиво с насыщенным вкусом. Хороший выбор для ценителей."
+    },
+    {
+        "id": "spaten",
+        "name": "Spaten",
+        "country": "Germany",
+        "beer_type": "Munich Lager",
+        "cost": 220,
+        "score": 8.3,
+        "strength": 5.2,
+        "conclusion": "Классическое мюнхенское пиво с богатым вкусом. Отличный пример немецкого качества."
+    },
+    {
+        "id": "starii_melnik",
+        "name": "Starii Melnik",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 95,
+        "score": 7.1,
+        "strength": 4.8,
+        "conclusion": "Популярное российское пиво с мягким вкусом. Хороший вариант для вечера с друзьями."
+    },
+    {
+        "id": "starii_melnik_dark",
+        "name": "Starii Melnik Dark",
+        "country": "Russia",
+        "beer_type": "Dark Lager",
+        "cost": 100,
+        "score": 7.3,
+        "strength": 4.9,
+        "conclusion": "Тёмный вариант Старого Мельника с карамельными нотами. Интересный вкус для любителей тёмного пива."
+    },
+    {
+        "id": "stella_artois",
+        "name": "Stella Artois",
+        "country": "Belgium",
+        "beer_type": "Pilsner",
+        "cost": 200,
+        "score": 8.0,
+        "strength": 5.0,
+        "conclusion": "Знаменитое бельгийское пиво с лёгким вкусом и хмельным ароматом. Классика европейского пивоварения."
+    },
+    {
+        "id": "svetlyachok",
+        "name": "Svetlyachok",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 70,
+        "score": 6.3,
+        "strength": 4.3,
+        "conclusion": "Одно из самых дешёвых пив в России. Простой вкус без изысков."
+    },
+    {
+        "id": "yarpivo",
+        "name": "Yarpivo",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 75,
+        "score": 6.5,
+        "strength": 4.5,
+        "conclusion": "Недорогое пиво с типичным лагерным вкусом. Подходит для неприхотливых потребителей."
+    },
+    {
+        "id": "zatecky_gus",
+        "name": "Zatecky Gus",
+        "country": "Czech Republic",
+        "beer_type": "Pilsner",
+        "cost": 170,
+        "score": 8.2,
+        "strength": 5.0,
+        "conclusion": "Чешский пилснер с идеальным балансом горечи и сладости. Отличный пример классического пива."
+    },
+    {
+        "id": "zatecky_gus_dark",
+        "name": "Zatecky Gus Dark",
+        "country": "Czech Republic",
+        "beer_type": "Dark Lager",
+        "cost": 180,
+        "score": 8.4,
+        "strength": 4.8,
+        "conclusion": "Тёмный вариант Zatecky Gus с шоколадными и кофейными нотами. Богатый и насыщенный вкус."
+    },
+    {
+        "id": "zatecky_gus_nefiltrovannoe",
+        "name": "Zatecky Gus Nefiltrovannoe",
+        "country": "Czech Republic",
+        "beer_type": "Unfiltered Pilsner",
+        "cost": 190,
+        "score": 8.5,
+        "strength": 5.2,
+        "conclusion": "Нефильтрованное чешское пиво с насыщенным вкусом и ароматом. Для истинных ценителей."
+    },
+    {
+        "id": "zhigulevskoe_bochkovoe",
+        "name": "Zhigulevskoe Bochkovoe",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 90,
+        "score": 7.0,
+        "strength": 4.7,
+        "conclusion": "Классическое Жигулёвское с узнаваемым вкусом. Ностальгический вариант для многих россиян."
+    },
+    {
+        "id": "zhigulevskoe_special",
+        "name": "Zhigulevskoe Special",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 100,
+        "score": 7.2,
+        "strength": 5.0,
+        "conclusion": "Улучшенная версия Жигулёвского с более насыщенным вкусом. Хороший выбор для любителей традиционного пива."
+    },
+    {
+        "id": "zhiguli_1968",
+        "name": "Zhiguli 1968",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 110,
+        "score": 7.4,
+        "strength": 4.9,
+        "conclusion": "Ретро-версия Жигулёвского по рецептуре 1968 года. Интересный вариант для ценителей истории пивоварения."
+    },
+    {
+        "id": "zhiguli_barnoe",
+        "name": "Zhiguli Barnoe",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 120,
+        "score": 7.6,
+        "strength": 5.2,
+        "conclusion": "Пиво с ярко выраженным хмельным вкусом. Один из лучших вариантов в линейке Жигули."
+    },
+    {
+        "id": "zhiguli_barnoe_dark",
+        "name": "Zhiguli Barnoe Dark",
+        "country": "Russia",
+        "beer_type": "Dark Lager",
+        "cost": 130,
+        "score": 7.8,
+        "strength": 5.5,
+        "conclusion": "Тёмное пиво с карамельными и кофейными нотами. Насыщенный вкус для любителей тёмных сортов."
+    },
+    {
+        "id": "zhiguli_export",
+        "name": "Zhiguli Export",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 140,
+        "score": 7.5,
+        "strength": 5.3,
+        "conclusion": "Экспортная версия Жигулёвского с более крепким вкусом. Популярен за пределами России."
+    },
+    {
+        "id": "zhiguli_pshenichnoe",
+        "name": "Zhiguli Pshenichnoe",
+        "country": "Russia",
+        "beer_type": "Wheat Beer",
+        "cost": 150,
+        "score": 7.9,
+        "strength": 5.0,
+        "conclusion": "Пшеничное пиво с лёгкими фруктовыми нотами. Освежающий вариант для лета."
+    },
+    {
+        "id": "zolotaya_bochka",
+        "name": "Zolotaya Bochka",
+        "country": "Russia",
+        "beer_type": "Lager",
+        "cost": 95,
+        "score": 7.3,
+        "strength": 4.8,
+        "conclusion": "Качественное российское пиво с чистым вкусом. Хорошее сочетание цены и качества."
+    },
+    {
+        "id": "zolotaya_bochka_extra",
+        "name": "Zolotaya Bochka Extra",
+        "country": "Russia",
+        "beer_type": "Strong Lager",
+        "cost": 110,
+        "score": 7.5,
+        "strength": 6.0,
+        "conclusion": "Крепкий вариант Золотой Бочки с более выраженным вкусом. Подходит для любителей крепкого пива."
+    }
 ]
