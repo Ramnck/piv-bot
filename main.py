@@ -56,7 +56,7 @@ async def photo_received(message: types.Message, state: FSMContext) -> None:
     await message.answer(result)
 
     await message.answer(
-        "Хочешь ещё рекомендаций? Напиши новые предпочтения или пришли другое фото."
+        "Хочешь ещё рекомендаций? Напиши новые предпочтения."
     )
 
     await state.clear()
