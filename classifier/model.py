@@ -1,12 +1,28 @@
 from PIL.Image import Image
+from transformers import ViTForImageClassification, ViTImageProcessor 
+import torch
 
 class Classifier:
     def __init__(self):
-        pass
+        self.confidence = 0.2
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        self.model = ViTForImageClassification.from_pretrained("ramnck/beer-classificator").to(self.device)
+        self.processor = ViTImageProcessor.from_pretrained("ramnck/beer-classificator")
 
     # функция возвращает id класса (или None если ошибка)
-    def predict_image(self, image: Image) -> int | None:
-        return 0
-
     def predict_images(self, images: list[Image]) -> list[int | None]:
-        return [self.predict_image(i) for i in images]
+
+        inputs = self.processor(images, return_tensors="pt")
+        
+        inputs = {k: v.to(self.device) for k, v in inputs.items()}
+
+        with torch.no_grad():
+            logits = self.model(**inputs).logits
+
+        probs = torch.softmax(logits, dim=1)
+        
+        confidences, labels = probs.max(dim=1)
+
+        output = labels[confidences > self.confidence]
+
+        return output.cpu().tolist()
