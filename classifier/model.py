@@ -10,19 +10,20 @@ class Classifier:
         self.processor = ViTImageProcessor.from_pretrained("ramnck/beer-classificator")
 
     # функция возвращает id класса (или None если ошибка)
-    def predict_images(self, images: list[Image]) -> list[int | None]:
+    def predict_images(self, images: list[Image], with_confidences: bool = False) -> list[int] | list[tuple[int, float]]:
 
-        inputs = self.processor(images, return_tensors="pt")
-        
+        inputs = self.processor(images, return_tensors="pt")        
         inputs = {k: v.to(self.device) for k, v in inputs.items()}
 
         with torch.no_grad():
             logits = self.model(**inputs).logits
-
         probs = torch.softmax(logits, dim=1)
-        
+
         confidences, labels = probs.max(dim=1)
-
-        output = labels[confidences > self.confidence]
-
-        return output.cpu().tolist()
+        confidences, labels = confidences.cpu(), labels.cpu()
+        
+        mask = confidences > self.confidence
+        if with_confidences:
+            return list(zip(labels[mask].tolist(), confidences[mask].tolist()))
+        else:
+            return labels[mask].tolist()

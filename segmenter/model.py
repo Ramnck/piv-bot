@@ -57,7 +57,7 @@ class Segmenter:
     def segment_image(self, image: Image.Image) -> list[Image.Image]:
 
         with torch.no_grad():
-            output = self.model(image)
+            output = self.model(image, verbose=False)
             bboxes = output[0].cpu().numpy()
 
         images = self._crop_expanded_bboxes(image, bboxes.boxes, expand_ratio=self.expand_ratio)
