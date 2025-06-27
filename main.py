@@ -55,12 +55,17 @@ async def photo_received(message: types.Message, state: FSMContext) -> None:
     result = process_image(path, preference)
     await message.answer(result)
 
+    await message.answer(
+        "Хочешь ещё рекомендаций? Напиши новые предпочтения или пришли другое фото."
+    )
+
+    await state.clear()
+    await state.set_state(Form.waiting_for_preference)
+
     try:
         path.unlink()
     except OSError as exc:
         logger.error("Cannot delete photo %s: %s", path, exc)
-
-    await state.clear()
 
 
 @dp.message(Form.waiting_for_photo)
