@@ -4,7 +4,7 @@ import torch
 
 class Classifier:
     def __init__(self):
-        self.confidence = 0.2
+        self.confidence = 0.5
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.model = ViTForImageClassification.from_pretrained("ramnck/beer-classificator").to(self.device)
         self.processor = ViTImageProcessor.from_pretrained("ramnck/beer-classificator")
