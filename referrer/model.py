@@ -1,3 +1,4 @@
+import os
 from utils import Info
 import requests
 
@@ -5,8 +6,7 @@ import requests
 class Referrer:
     def __init__(self):
         self.model_name = "mistral:7b"
-        self.url = "http://localhost:11434/api/generate"
-        pass
+        self.url = os.getenv("OLLAMA_URL", "http://localhost:11434/api/generate")
 
     def make_referrence(self, user_prompt: str, bottle_infos: list[Info]) -> str:
         beer_list = "\n".join(
