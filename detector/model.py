@@ -5,7 +5,7 @@ class Detector:
     def __init__(self, verbose: bool = True):
         self.expand_ratio = 1.5
         self.model = torch.hub.load(
-            'Ramnck/pivo-detection',
+            'Ramnck/beer-detection',
             'model',
             verbose=verbose,
             pretrained=True,
